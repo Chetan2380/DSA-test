@@ -73,30 +73,5 @@
 // console.log(array2);
 
 
-// Question 6:
-// Write a JavaScript function that takes a number as input and returns true if it is a prime number, otherwise false.
-
-function primenumber(number){
-
-    if (number===0 || number===1){
-        console.log("This number is nor prime not composite number")
-    }
-    for(var i=2;i<=number-1;i++){
-        if(number%i===0){
-            return false;
-        }
-        else{
-            return true;
-        }
-    }
-
-    if(number==true){
-        console.log("Not Prime")
-    }
-    else{
-        console.log("Prime")
-    }
-}
-
 
 
