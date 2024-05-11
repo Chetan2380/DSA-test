@@ -28,10 +28,10 @@
 //     for(var i=0;i<=array.length;i++){
 //         sum=sum+i;
 //     }
-//     console.log(sum)
+//     return sum
 // }
-
-// sumofarray(array)
+// const sum1=sumofarray(array)
+// console.log(sum1)
 
 
 // Question 4:
