@@ -63,7 +63,7 @@
 // function lessthanfive(array){
 //     array1=[]
 //     for(var i=0; i<array.length;i++){
-//         if(array[i].length<=5){
+//         if(array[i].length>5){
 //             array1.push(array[i]);
 //         }
 //     }
