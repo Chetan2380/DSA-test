@@ -96,7 +96,7 @@
 
 // Q .Create a JavaScript program that calculates the sum of all numbers from 1 to 1000 that are divisible by both 3 and 5.
 // var sum=0;
-// for (let i = 1; i <= 1000; i++) {
+// for (var i = 1; i <= 1000; i++) {
 //     if (i % 3 == 0 && i % 5 == 0) {
 //         sum=sum+i;
 //     }
