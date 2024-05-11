@@ -102,3 +102,17 @@
 //     }
 //   }
 //   console.log(sum);
+
+// Question 8:
+// Write a JavaScript function that takes a string as input and returns the reverse of the string using a for loop.
+
+// function strreverse(str) {
+//     var str1 = "";
+//     for (var i=str.length-1;i>=0;i--) {
+//         str1 += str[i];
+//     }
+//     console.log(str1);
+// }
+
+// strreverse("Chetan")
+
