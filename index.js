@@ -120,23 +120,23 @@
 // Question 10:
 // Write a JavaScript function that takes an array of numbers as input and returns the maximum difference between any two numbers in the array.
 
-// array=[1,2,3,4,5,6,7,8,9,10]
-// function maxdifference(array){
-//     min=99999999;
-//     max=0;
-//     for(i=0;i<array.length;i++){
-//         // console.log(array[i])
-//         if(array[i]<min){
-//             min=array[i]; 
-//         }
+array=[1,2,3,4,5,6,7,8,9,10]
+function maxdifference(array){
+    min=99999999;
+    max=0;
+    for(i=0;i<array.length;i++){
+        // console.log(array[i])
+        if(array[i]<min){
+            min=array[i]; 
+        }
 
-//         if(array[i]>max){
-//             max=array[i]; 
-//         }
-//     }
-//     return max-min;
-// }
-// const array1=maxdifference(array);
-// console.log("Minimum number:",min)
-// console.log("Maximum number:",max)
-// console.log("Max difference between two numbers is:",array1)
+        if(array[i]>max){
+            max=array[i]; 
+        }
+    }
+    return max-min;
+}
+const array1=maxdifference(array);
+console.log("Minimum number:",min)
+console.log("Maximum number:",max)
+console.log("Max difference between two numbers is:",array1)
