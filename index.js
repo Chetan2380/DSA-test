@@ -140,3 +140,4 @@ const array1=maxdifference(array);
 console.log("Minimum number:",min)
 console.log("Maximum number:",max)
 console.log("Max difference between two numbers is:",array1)
+
